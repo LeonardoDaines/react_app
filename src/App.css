@@ -1,0 +1,542 @@
+.mybutton{
+  background-color: #f0c997;
+  color: rgb(65, 63, 58);
+  border-radius: 8px;
+  border: solid;
+  border-color: #f0c997;
+  padding: 8px 16px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+.mybutton:hover {
+  background-color: rgb(65, 63, 58);
+  color: #f0c997;
+
+  border-style: solid;
+  border-color: #f0c997;
+}
+
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  font-size: large  ;
+  background-color: #323232;
+}
+
+.logo p, h2{
+  font-family: inherit monospace;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+
+.menu h3{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+
+.menu h1:hover{
+  color: #f0c997;
+  padding-right: 50px;
+}
+
+.menu li{
+  color: #ffffff;
+  padding-right: 50px;
+  transition: 0.3s;
+}
+.menu li:hover{
+  color: #f0c997;
+}
+
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  padding: 20%;
+  align-items: center;
+  text-align: center;
+  font-family: inherit monospace;
+}
+.background{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/spa_therapy.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+}
+
+
+
+.visitcard{
+  margin: 5%;
+  border-style: solid; 
+  border-width: 10px;
+  border-color: #f0c997; 
+  border-radius: 8px;
+  text-align: center;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 30px;
+}
+
+
+
+
+.servic{
+  font-family: inherit monospace;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+}
+
+.main {
+  display: grid;
+  grid: 300px / auto auto auto;
+}
+
+
+.icon{
+  color: rgb(65, 63, 58);
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 5%;
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.icon:hover {
+  background-color: rgb(102, 99, 92);
+  color: #f0c997;
+  border-style: none;
+}
+
+
+
+.imgCh{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background:rgba(0, 0, 0, 0.4)url(./app/image/spa-therapy3.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-blend-mode: darken; 
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  align-items: center;
+  text-align: center;
+  font-family: inherit monospace;
+}
+
+.imgCh h1{
+  margin-inline: 30%;
+}
+
+.imgCh p{
+  margin-inline: 20%;
+}
+
+.imgCh button{
+  font-size: 15px;
+}
+
+
+.tratamentos{
+ text-align: center;
+}
+
+.mainTratamentos{
+  width: 100%;
+  height: 620px;
+  display: grid;
+  grid: 300px / auto auto auto;
+}
+
+.iconTratamentos0{
+  background: url(./app/image/serviços_0.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos0:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_0.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+.textTratamanto{
+  transition: 0.7s;
+  opacity: 0;
+  padding: 80px 120px;
+  color: white;
+}
+.textTratamanto:hover{
+  opacity: 1;
+}
+
+.iconTratamentos1{
+  background: url(./app/image/serviços_1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos1:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_1.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+.iconTratamentos2{
+  background: url(./app/image/serviços_2.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos2:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_2.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+.iconTratamentos3{
+  background: url(./app/image/serviços_3.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos3:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_3.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+.iconTratamentos4{
+  background: url(./app/image/serviços_4.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos4:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_4.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+.iconTratamentos5{
+  background: url(./app/image/serviços_5.jpg);
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+  transition: 0.7s;
+}
+.iconTratamentos5:hover{
+  background:rgba(0, 0, 0, 0.5)url(./app/image/serviços_5.jpg);
+  background-blend-mode: darken; 
+  background-repeat: none;
+  background-size: cover;
+  border-style: none;
+}
+
+
+
+
+.equip{
+  width: 100%;
+  height: 700px;
+  font-family: inherit monospace;
+  text-align: center;
+}
+
+.cardEquip{
+  display: flex;
+}
+
+.equipTitle{
+padding: 20px;
+}
+
+.mainEquip{
+  margin: 20px;
+  box-shadow: 0px 0px 25px -5px;
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 50%;
+}
+.mainEquip:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 25px 0px;
+}
+
+.mainEquip img{
+  border-radius: 5px;
+  
+}
+
+.mybuttonEquip{
+  padding: 20px 20%;
+  margin: 10px;
+  transition: 0.3s; 
+  border-style: none;
+}
+
+.mybuttonEquip:hover {
+  background-color: #323232;
+  color: #f0c997;
+}
+
+
+
+.squad{
+ padding: 20px;
+}
+
+.mainSquad{
+  display: flex;
+  align-items: center;
+  background-color:azure;
+}
+
+.mainSquad img{
+  padding: 20px;
+}
+
+.squadText{
+  padding: 50px;
+
+}
+
+
+
+.video{
+  font-family: inherit monospace;
+  text-align: center; 
+  background-image: url('./app/image/background_therapy.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+}
+
+
+
+.planos{
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.blog{
+  text-align: center;
+
+ }
+ 
+ .mainblog{
+   width: 100%;
+   height: 400px;
+   display: grid;
+   text-align: center;
+   grid: 300px / auto auto auto;
+ }
+ 
+ .elementosblog{
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .iconblog0{
+  background:rgba(0, 0, 0, 0.4)url(./app/image/blog_1.jpg);
+  background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+ .iconblog1{
+   background:rgba(0, 0, 0, 0.4) url(./app/image/blog_2.jpg);
+   background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+ .iconblog2{
+   background:rgba(0, 0, 0, 0.4) url(./app/image/blog_3.jpg);
+   background-blend-mode: darken; 
+   background-repeat: none;
+   background-size: cover;
+   border-style: none;
+   padding: 80px 120px;
+   color: white
+ }
+
+
+
+.contact{
+  background:url(./app/image/background_spa2.jpg);
+  padding-top: 400px;
+  padding-bottom: 400px;
+}
+
+
+
+.baseboard{
+  background-color: rgb(40, 40, 40);
+  color: white;
+  align-items: center;
+  column-count: 2;
+  column-gap: 40px;
+  padding: 100px;
+  padding-inline: 300px;
+}
+
+
+
+
+
+@media only screen and (max-width:700px) {
+
+  .header{
+    font-size: 10px;
+  }
+
+
+
+  .card {
+    font-size: 200px;
+    position: relative;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    padding: 60px;
+    text-align: center;
+    font-family: inherit monospace;
+  }
+
+
+  
+  .visitcard{
+    column-count: 1;
+    font-size: 10px;
+  }
+
+  
+  
+  .servic{
+    width: 100%;
+    height: 1400px;
+  }
+  
+  .main {
+    display:contents;
+    grid: 300px / auto auto auto;
+  }
+
+  .icon{
+    font-size: 10px;
+    width: 80%;
+  }
+
+
+
+  .imgCh{
+    font-size: large;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+  }
+
+  .imgCh h1{
+    margin-inline: 5%;
+  }
+
+  .imgCh p{
+    margin-inline: 5%;
+  }
+
+
+
+  .mainTratamentos{
+    width: 100%;
+    height: 1400px;;
+    display:contents;
+
+
+  }
+
+
+
+  .equip{
+    height: 2200px;
+  }
+
+  .cardEquip{
+    display:contents;
+  }
+
+
+
+  .mainblog{
+    display:contents;
+    grid: 300px / auto;
+    margin: 10px;
+  }
+
+
+
+  .baseboard{
+    background-color: rgb(40, 40, 40);
+    align-items: center;
+    column-count: 2;
+    padding: 100px;
+    padding-inline: 50px;
+  }
+
+
+
+  .mainSquad{
+    display:contents;
+  font-size: small;
+  }
+
+  .mainSquad img{
+    display: block;
+    height: 300px;
+    width: 350px;
+   
+  }
+
+}
